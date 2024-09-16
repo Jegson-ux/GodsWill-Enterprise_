@@ -27,12 +27,12 @@ In the initial data preparation phase, we performed the following tasks;
  - Cleaning and formatting
         
        - Functions: 
-            "Text" function ( The "TEXT" function argument allows you to format dates specifying a format code in       the format_text argument, it display dates in a manner that suits the 
-                             user.) 
+            "Text" function ( The "TEXT" function argument allows you to format dates specifying a format code in       the format_text argument, it display dates in a 
+   manner that suits the user.)
+   
                =TEXT([@Date],"YYYY") , =TEXT([@Date],"DDDD"), =TEXT([@Date],"MMMM")
 
-            "IFS" function ( The IFS function in Excel evaluates multiple conditions and returns a value based on the first true condition. It simplifies complex nested IF statements by allowing 
-                              you to specify conditions and their corresponding results in a single function.)
+            "IFS" function ( The IFS function in Excel evaluates multiple conditions and returns a value based on the first true condition. It simplifies complex nested IF statements by allowing you to specify conditions and their corresponding results in a single function.)
 
                =IFS([@[Customer_Age]]<25,"Youth",[@[Customer_Age]]<=34,"Young Adult",[@[Customer_Age]]<=64,"Adult",[@[Customer_Age]]>65,"Seniors")
 
