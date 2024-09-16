@@ -27,8 +27,7 @@ In the initial data preparation phase, we performed the following tasks;
  - Cleaning and formatting
         
        - Functions: 
-            "Text" function ( The "TEXT" function argument allows you to format dates specifying a format code in       the format_text argument, it display dates in a 
-   manner that suits the user.)
+            "Text" function ( The "TEXT" function argument allows you to format dates specifying a format code in       the format_text argument, it display dates in a    manner that suits the user.)
    
                =TEXT([@Date],"YYYY") , =TEXT([@Date],"DDDD"), =TEXT([@Date],"MMMM")
 
